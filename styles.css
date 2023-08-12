@@ -70,6 +70,10 @@ body{
     padding: 2% 8%;
 }
 
+.cover{
+    margin-bottom: 2rem;
+}
+
 .main-cover{
     background-image: url('QuakeCon.png');
     background-size: cover;
@@ -79,16 +83,16 @@ body{
     align-items:end;
 }
 
-.cover-content{
+.cover-details{
     padding: 3%;
     z-index: 1;
 }
 
-.cover-content > h1{
+.cover-details > h1{
     margin-bottom: 2rem;
 }
 
-.cover-content > p{
+.cover-details > p{
     font-size: 1.5rem;
 }
 
