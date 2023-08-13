@@ -245,8 +245,7 @@ hr {
 }
 
 .genres{
-    border: 2px solid red;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -256,3 +255,103 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+
+.genres-lower{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.genre-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.genre-box:hover{
+    background-color: #565555;
+    cursor: pointer;
+}
+
+.genre-image{
+    height: 150px;
+    width: 250px;
+}
+
+.genres-next{
+    display: flex;
+    gap: 10px;
+}
+
+.genres-next >button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #2A2A2A;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.genres-next >button:hover{
+    background-color: #565555;
+    cursor: pointer;
+}
+
+/*Games Library */
+.game-library{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.heading{
+    display: flex;
+}
+
+.showing{
+    width: 15%;
+}
+
+.game-content{
+    display: grid;
+    grid-template-columns: 75%  5% 20%;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.filters{
+    border: 2px solid black;
+}
+
+.game-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.game-image{
+    border-radius: 30px;
+    height: 150px;
+    width: 250px;
+}
+
+.game-name{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
