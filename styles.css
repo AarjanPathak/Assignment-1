@@ -119,8 +119,89 @@ body{
     position: absolute;
 }
 
+/*News*/
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.headlines{
+    display: flex;
+    gap: 1rem;
+}
+
+.news-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.news-content > .more:hover{
+  cursor: pointer;
+}
+
+.news-content > .more{
+    margin-bottom: 1rem;
+}
+
+.news-image{
+    border-radius: 20px;
+}
 
 
+.content > .next-page{
+    text-align: center;
+    margin-top: 3rem;
+    letter-spacing: 10px;
+}
+
+.content > .next-page:hover{
+   cursor: pointer;
+}
+
+.other-news{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-image{
+    border-radius: 20px;
+}
+
+.other-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.other-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
 
 
+.greyed-out{
+    color: grey;
+}
+
+.greyed-out:hover{
+    color: white;
+}
+
+
+hr {
+    border: none;
+    height: 0px;
+    width: 85%;
+    box-shadow: 0 0.1px 3px 0.4px cornflowerblue;
+  }
 
