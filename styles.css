@@ -75,7 +75,7 @@ body{
 }
 
 .main-cover{
-    background-image: url('QuakeCon.png');
+    background-image: url('/assets/QuakeCon.png');
     background-size: cover;
     height: 600px;
     position: relative;
@@ -205,3 +205,54 @@ hr {
     box-shadow: 0 0.1px 3px 0.4px cornflowerblue;
   }
 
+
+  /*BROWSE PAGE*/
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content:right;
+}
+
+
+.search-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#search{
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    width: 60%;
+    outline: none;
+}
+
+#search-button{
+    background-color: #E82323;  
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: background-color 0.3 ease;
+}
+
+#search-button:hover{
+    cursor: pointer;
+    background-color: #B30F0F;
+}
+
+.genres{
+    border: 2px solid red;
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.genres-upper{
+    display: flex;
+    justify-content: space-between;
+}
