@@ -546,10 +546,13 @@ table {
     border-radius: 5px;
     cursor: pointer;
 }
+.nav-links > span{
+    display: none;
+}
 
 
 /*Media Queries*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     table {
       border: 0;
     }
@@ -597,6 +600,15 @@ table {
         padding: 10px;
     }
 
+    .nav-links ul{
+        display: none;   
+    }
+
+    .nav-links span{
+        display: block;
+        cursor: pointer;
+    }
+    
   }
 
   
